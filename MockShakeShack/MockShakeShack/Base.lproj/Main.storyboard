@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MockShakeShack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FG-Xu-6F5">
+                                <rect key="frame" x="16" y="60" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="03q-73-F4f"/>
+                                    <constraint firstAttribute="height" constant="48" id="BvS-9Y-dWa"/>
+                                </constraints>
+                                <state key="normal" image="Arrow 1"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick-Up from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ar-ds-CS3">
+                                <rect key="frame" x="72" y="60" width="71.5" height="17"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.46274509800000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6201 Holly wood ( cross at ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiH-bJ-Tr7">
+                                <rect key="frame" x="72" y="81" width="231" height="26"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myr-CL-Awd">
+                                <rect key="frame" x="358" y="60" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="L80-F1-vyo"/>
+                                    <constraint firstAttribute="width" constant="48" id="f0k-Nm-coH"/>
+                                </constraints>
+                                <state key="normal" image="List"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sTX-TE-KKx">
+                                <rect key="frame" x="0.0" y="307" width="414" height="555"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="7Vm-kz-AJV"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="wBX-yZ-tgv"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No hormones ot antibiotics ever, our 100% Angus beef is humanly raised and grazed in the USA." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xm-y1-aWq">
+                                <rect key="frame" x="8" y="258" width="398" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text=" Burgers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYp-ey-XOP">
+                                <rect key="frame" x="8" y="199" width="398" height="51"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="j9Z-4o-lz7">
+                                <rect key="frame" x="0.0" y="108" width="414" height="91"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ix4-Hr-A6V">
+                                    <size key="itemSize" width="98" height="76"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCell" id="azl-F2-oVM">
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="76"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="01K-4s-6nT">
+                                            <rect key="frame" x="0.0" y="0.0" width="98" height="76"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="98" height="76"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="p71-HP-bHM"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="5Sf-wl-fkV"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sTX-TE-KKx" firstAttribute="top" secondItem="TiH-bJ-Tr7" secondAttribute="bottom" constant="200" id="07P-jf-kCa"/>
+                            <constraint firstItem="3Xm-y1-aWq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="1jV-hz-Pg2"/>
+                            <constraint firstItem="GYp-ey-XOP" firstAttribute="top" secondItem="7FG-Xu-6F5" secondAttribute="bottom" constant="91" id="BOa-1S-uzG"/>
+                            <constraint firstItem="sTX-TE-KKx" firstAttribute="top" secondItem="3Xm-y1-aWq" secondAttribute="bottom" constant="8" id="Be6-5N-EQe"/>
+                            <constraint firstItem="TiH-bJ-Tr7" firstAttribute="leading" secondItem="7FG-Xu-6F5" secondAttribute="trailing" constant="8" id="E44-cV-Eb2"/>
+                            <constraint firstItem="7FG-Xu-6F5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JI9-xS-KZf"/>
+                            <constraint firstItem="1Ar-ds-CS3" firstAttribute="leading" secondItem="7FG-Xu-6F5" secondAttribute="trailing" constant="8" id="KWo-ZY-rTc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sTX-TE-KKx" secondAttribute="trailing" id="LaG-6p-n8X"/>
+                            <constraint firstItem="sTX-TE-KKx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Liu-Eu-5es"/>
+                            <constraint firstItem="Myr-CL-Awd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Log-wa-fhw"/>
+                            <constraint firstItem="j9Z-4o-lz7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PvP-Ei-2F8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Xm-y1-aWq" secondAttribute="trailing" constant="8" id="RM3-y2-NCf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GYp-ey-XOP" secondAttribute="trailing" constant="8" id="Tqh-PO-hiX"/>
+                            <constraint firstItem="GYp-ey-XOP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="bjT-gK-gA9"/>
+                            <constraint firstItem="j9Z-4o-lz7" firstAttribute="top" secondItem="7FG-Xu-6F5" secondAttribute="bottom" id="eAD-Yw-kxm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sTX-TE-KKx" secondAttribute="bottom" id="ffv-8h-lZZ"/>
+                            <constraint firstItem="1Ar-ds-CS3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="h2k-ry-sPt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j9Z-4o-lz7" secondAttribute="trailing" id="hyX-7F-B4g"/>
+                            <constraint firstItem="3Xm-y1-aWq" firstAttribute="top" secondItem="GYp-ey-XOP" secondAttribute="bottom" constant="8" id="kSv-P9-QWQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Myr-CL-Awd" secondAttribute="trailing" constant="8" id="nD1-CS-9Nf"/>
+                            <constraint firstItem="GYp-ey-XOP" firstAttribute="top" secondItem="j9Z-4o-lz7" secondAttribute="bottom" id="rGt-5M-2pI"/>
+                            <constraint firstItem="7FG-Xu-6F5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="sQn-mr-lEI"/>
+                            <constraint firstItem="TiH-bJ-Tr7" firstAttribute="top" secondItem="1Ar-ds-CS3" secondAttribute="bottom" constant="4" id="xiH-A3-uqs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="menuCollectionView" destination="j9Z-4o-lz7" id="KvQ-Dc-SEx"/>
+                        <outlet property="shakeBurgerTableView" destination="sTX-TE-KKx" id="5Ik-af-azD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175.36231884057972" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Arrow 1" width="23" height="22.5"/>
+        <image name="List" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
