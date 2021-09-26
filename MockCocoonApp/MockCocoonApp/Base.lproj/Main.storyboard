@@ -218,6 +218,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cocoonLabel" destination="b6z-AS-2bV" id="55s-ck-Q8V"/>
                         <outlet property="templateView" destination="Wp8-wz-fi5" id="01a-uH-50k"/>
                         <outlet property="tutorialView" destination="RG4-VD-e9e" id="qZY-ro-rQY"/>
                         <outletCollection property="templateButtons" destination="ZnH-4D-edD" collectionClass="NSMutableArray" id="qCv-dM-6l6"/>

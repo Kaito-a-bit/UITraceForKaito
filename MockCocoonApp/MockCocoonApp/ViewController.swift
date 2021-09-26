@@ -12,17 +12,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var tutorialView: UIView!
     @IBOutlet weak var templateView: UIView!
     @IBOutlet var templateButtons: [UIButton]!
-   
+    @IBOutlet weak var cocoonLabel: UILabel!
+    
     
     @IBAction func closeButton(_ sender: Any) {
         self.tutorialView.removeFromSuperview()
-        templateView.bounds = CGRect(x: 16, y: 32, width: self.view.frame.width - 48, height: self.view.frame.height - 56)
-      
+        if let tutorialView = tutorialView {
+            tutorialView.addConstraint(NSLayoutConstraint(
+                                        item: tutorialView,
+                                        attribute: .topMargin,
+                                        relatedBy: .lessThanOrEqual,
+                                        toItem: cocoonLabel,
+                                        attribute: .bottom,
+                                        multiplier: 1.0,
+                                        constant: 32))
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setButtonTitleMargin()
+        templateView.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func setButtonTitleMargin() {
