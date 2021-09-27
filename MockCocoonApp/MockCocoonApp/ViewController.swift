@@ -16,17 +16,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func closeButton(_ sender: Any) {
-        self.tutorialView.removeFromSuperview()
-        if let tutorialView = tutorialView {
-            tutorialView.addConstraint(NSLayoutConstraint(
-                                        item: tutorialView,
-                                        attribute: .topMargin,
-                                        relatedBy: .lessThanOrEqual,
-                                        toItem: cocoonLabel,
-                                        attribute: .bottom,
-                                        multiplier: 1.0,
-                                        constant: 32))
-        }
+        UIView.animate(withDuration: 0.3, animations: {
+            self.tutorialView.alpha = 0
+        })
     }
     
     override func viewDidLoad() {
