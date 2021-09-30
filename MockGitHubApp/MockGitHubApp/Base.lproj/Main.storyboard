@@ -119,37 +119,33 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rur-jO-hFg">
                                 <rect key="frame" x="16" y="251.5" width="382" height="223.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R5-hj-1HI">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R5-hj-1HI">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="56"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <inset key="titleEdgeInsets" minX="64" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Issues">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eS-pE-FUh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eS-pE-FUh">
                                         <rect key="frame" x="0.0" y="56" width="382" height="56"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <inset key="titleEdgeInsets" minX="64" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Pull Requests">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfR-lU-bcv">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfR-lU-bcv">
                                         <rect key="frame" x="0.0" y="112" width="382" height="55.5"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <inset key="titleEdgeInsets" minX="64" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Repositories">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZx-mk-EVG">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZx-mk-EVG">
                                         <rect key="frame" x="0.0" y="167.5" width="382" height="56"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <inset key="titleEdgeInsets" minX="64" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Organizations">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -188,6 +184,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="JSK-OL-wJV"/>
                     <connections>
+                        <outlet property="issuesButton" destination="2R5-hj-1HI" id="VZE-hx-2HM"/>
                         <outletCollection property="myWorksButtons" destination="2R5-hj-1HI" collectionClass="NSMutableArray" id="xHJ-oe-I40"/>
                         <outletCollection property="myWorksButtons" destination="3eS-pE-FUh" collectionClass="NSMutableArray" id="1yV-bR-yIy"/>
                         <outletCollection property="myWorksButtons" destination="hfR-lU-bcv" collectionClass="NSMutableArray" id="Eww-oK-mpQ"/>
