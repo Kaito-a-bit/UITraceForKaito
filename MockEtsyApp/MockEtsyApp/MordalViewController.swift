@@ -30,9 +30,9 @@ class MordalViewController: UIViewController {
         
         
         continueWithFB.imageEdgeInsets = UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 200)
-        continueWithGoogle.imageEdgeInsets = UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 150)
-//
         continueWithFB.titleEdgeInsets = UIEdgeInsets(top: 0, left: -100, bottom: 0, right: 0)
+        
+        continueWithGoogle.imageEdgeInsets = UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 200)
         continueWithGoogle.titleEdgeInsets = UIEdgeInsets(top: 0, left: -100, bottom: 0, right: 0)
     }
     
