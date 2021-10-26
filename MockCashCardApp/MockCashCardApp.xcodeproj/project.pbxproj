@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120C2DCD2727C27600E2EB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C2DCC2727C27600E2EB05 /* AppDelegate.swift */; };
+		120C2DCF2727C27600E2EB05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C2DCE2727C27600E2EB05 /* SceneDelegate.swift */; };
+		120C2DD12727C27600E2EB05 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C2DD02727C27600E2EB05 /* MainViewController.swift */; };
+		120C2DD42727C27600E2EB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120C2DD22727C27600E2EB05 /* Main.storyboard */; };
+		120C2DD62727C27600E2EB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120C2DD52727C27600E2EB05 /* Assets.xcassets */; };
+		120C2DD92727C27600E2EB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120C2DD72727C27600E2EB05 /* LaunchScreen.storyboard */; };
+		120C2DE42727C27700E2EB05 /* MockCashCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C2DE32727C27700E2EB05 /* MockCashCardAppTests.swift */; };
+		120C2DEF2727C27700E2EB05 /* MockCashCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C2DEE2727C27700E2EB05 /* MockCashCardAppUITests.swift */; };
+		120C2E012727C7D600E2EB05 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120C2DFF2727C7D600E2EB05 /* CollectionViewCell.swift */; };
+		120C2E022727C7D600E2EB05 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120C2E002727C7D600E2EB05 /* CollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		120C2DE02727C27600E2EB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 120C2DC12727C27600E2EB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120C2DC82727C27600E2EB05;
+			remoteInfo = MockCashCardApp;
+		};
+		120C2DEB2727C27700E2EB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 120C2DC12727C27600E2EB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120C2DC82727C27600E2EB05;
+			remoteInfo = MockCashCardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120C2DC92727C27600E2EB05 /* MockCashCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockCashCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120C2DCC2727C27600E2EB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		120C2DCE2727C27600E2EB05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		120C2DD02727C27600E2EB05 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		120C2DD32727C27600E2EB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		120C2DD52727C27600E2EB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120C2DD82727C27600E2EB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		120C2DDA2727C27600E2EB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120C2DDF2727C27600E2EB05 /* MockCashCardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockCashCardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		120C2DE32727C27700E2EB05 /* MockCashCardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCashCardAppTests.swift; sourceTree = "<group>"; };
+		120C2DE52727C27700E2EB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120C2DEA2727C27700E2EB05 /* MockCashCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockCashCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		120C2DEE2727C27700E2EB05 /* MockCashCardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCashCardAppUITests.swift; sourceTree = "<group>"; };
+		120C2DF02727C27700E2EB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120C2DFF2727C7D600E2EB05 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		120C2E002727C7D600E2EB05 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120C2DC62727C27600E2EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C2DDC2727C27600E2EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C2DE72727C27700E2EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120C2DC02727C27600E2EB05 = {
+			isa = PBXGroup;
+			children = (
+				120C2DCB2727C27600E2EB05 /* MockCashCardApp */,
+				120C2DE22727C27700E2EB05 /* MockCashCardAppTests */,
+				120C2DED2727C27700E2EB05 /* MockCashCardAppUITests */,
+				120C2DCA2727C27600E2EB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		120C2DCA2727C27600E2EB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120C2DC92727C27600E2EB05 /* MockCashCardApp.app */,
+				120C2DDF2727C27600E2EB05 /* MockCashCardAppTests.xctest */,
+				120C2DEA2727C27700E2EB05 /* MockCashCardAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120C2DCB2727C27600E2EB05 /* MockCashCardApp */ = {
+			isa = PBXGroup;
+			children = (
+				120C2DCC2727C27600E2EB05 /* AppDelegate.swift */,
+				120C2DCE2727C27600E2EB05 /* SceneDelegate.swift */,
+				120C2DD02727C27600E2EB05 /* MainViewController.swift */,
+				120C2DD22727C27600E2EB05 /* Main.storyboard */,
+				120C2DFF2727C7D600E2EB05 /* CollectionViewCell.swift */,
+				120C2E002727C7D600E2EB05 /* CollectionViewCell.xib */,
+				120C2DD52727C27600E2EB05 /* Assets.xcassets */,
+				120C2DD72727C27600E2EB05 /* LaunchScreen.storyboard */,
+				120C2DDA2727C27600E2EB05 /* Info.plist */,
+			);
+			path = MockCashCardApp;
+			sourceTree = "<group>";
+		};
+		120C2DE22727C27700E2EB05 /* MockCashCardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				120C2DE32727C27700E2EB05 /* MockCashCardAppTests.swift */,
+				120C2DE52727C27700E2EB05 /* Info.plist */,
+			);
+			path = MockCashCardAppTests;
+			sourceTree = "<group>";
+		};
+		120C2DED2727C27700E2EB05 /* MockCashCardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				120C2DEE2727C27700E2EB05 /* MockCashCardAppUITests.swift */,
+				120C2DF02727C27700E2EB05 /* Info.plist */,
+			);
+			path = MockCashCardAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120C2DC82727C27600E2EB05 /* MockCashCardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C2DF32727C27700E2EB05 /* Build configuration list for PBXNativeTarget "MockCashCardApp" */;
+			buildPhases = (
+				120C2DC52727C27600E2EB05 /* Sources */,
+				120C2DC62727C27600E2EB05 /* Frameworks */,
+				120C2DC72727C27600E2EB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockCashCardApp;
+			productName = MockCashCardApp;
+			productReference = 120C2DC92727C27600E2EB05 /* MockCashCardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		120C2DDE2727C27600E2EB05 /* MockCashCardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C2DF62727C27700E2EB05 /* Build configuration list for PBXNativeTarget "MockCashCardAppTests" */;
+			buildPhases = (
+				120C2DDB2727C27600E2EB05 /* Sources */,
+				120C2DDC2727C27600E2EB05 /* Frameworks */,
+				120C2DDD2727C27600E2EB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120C2DE12727C27600E2EB05 /* PBXTargetDependency */,
+			);
+			name = MockCashCardAppTests;
+			productName = MockCashCardAppTests;
+			productReference = 120C2DDF2727C27600E2EB05 /* MockCashCardAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		120C2DE92727C27700E2EB05 /* MockCashCardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C2DF92727C27700E2EB05 /* Build configuration list for PBXNativeTarget "MockCashCardAppUITests" */;
+			buildPhases = (
+				120C2DE62727C27700E2EB05 /* Sources */,
+				120C2DE72727C27700E2EB05 /* Frameworks */,
+				120C2DE82727C27700E2EB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120C2DEC2727C27700E2EB05 /* PBXTargetDependency */,
+			);
+			name = MockCashCardAppUITests;
+			productName = MockCashCardAppUITests;
+			productReference = 120C2DEA2727C27700E2EB05 /* MockCashCardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120C2DC12727C27600E2EB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					120C2DC82727C27600E2EB05 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					120C2DDE2727C27600E2EB05 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 120C2DC82727C27600E2EB05;
+					};
+					120C2DE92727C27700E2EB05 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 120C2DC82727C27600E2EB05;
+					};
+				};
+			};
+			buildConfigurationList = 120C2DC42727C27600E2EB05 /* Build configuration list for PBXProject "MockCashCardApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 120C2DC02727C27600E2EB05;
+			productRefGroup = 120C2DCA2727C27600E2EB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120C2DC82727C27600E2EB05 /* MockCashCardApp */,
+				120C2DDE2727C27600E2EB05 /* MockCashCardAppTests */,
+				120C2DE92727C27700E2EB05 /* MockCashCardAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120C2DC72727C27600E2EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C2DD92727C27600E2EB05 /* LaunchScreen.storyboard in Resources */,
+				120C2DD62727C27600E2EB05 /* Assets.xcassets in Resources */,
+				120C2E022727C7D600E2EB05 /* CollectionViewCell.xib in Resources */,
+				120C2DD42727C27600E2EB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C2DDD2727C27600E2EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C2DE82727C27700E2EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120C2DC52727C27600E2EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C2DD12727C27600E2EB05 /* MainViewController.swift in Sources */,
+				120C2DCD2727C27600E2EB05 /* AppDelegate.swift in Sources */,
+				120C2E012727C7D600E2EB05 /* CollectionViewCell.swift in Sources */,
+				120C2DCF2727C27600E2EB05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C2DDB2727C27600E2EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C2DE42727C27700E2EB05 /* MockCashCardAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C2DE62727C27700E2EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C2DEF2727C27700E2EB05 /* MockCashCardAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		120C2DE12727C27600E2EB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 120C2DC82727C27600E2EB05 /* MockCashCardApp */;
+			targetProxy = 120C2DE02727C27600E2EB05 /* PBXContainerItemProxy */;
+		};
+		120C2DEC2727C27700E2EB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 120C2DC82727C27600E2EB05 /* MockCashCardApp */;
+			targetProxy = 120C2DEB2727C27700E2EB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		120C2DD22727C27600E2EB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120C2DD32727C27600E2EB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		120C2DD72727C27600E2EB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120C2DD82727C27600E2EB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		120C2DF12727C27700E2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		120C2DF22727C27700E2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120C2DF42727C27700E2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockCashCardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockCashCardApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120C2DF52727C27700E2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockCashCardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockCashCardApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		120C2DF72727C27700E2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockCashCardAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockCashCardAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockCashCardApp.app/MockCashCardApp";
+			};
+			name = Debug;
+		};
+		120C2DF82727C27700E2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockCashCardAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockCashCardAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockCashCardApp.app/MockCashCardApp";
+			};
+			name = Release;
+		};
+		120C2DFA2727C27700E2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockCashCardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockCashCardAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockCashCardApp;
+			};
+			name = Debug;
+		};
+		120C2DFB2727C27700E2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockCashCardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaito-Arai.MockCashCardAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockCashCardApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120C2DC42727C27600E2EB05 /* Build configuration list for PBXProject "MockCashCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C2DF12727C27700E2EB05 /* Debug */,
+				120C2DF22727C27700E2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120C2DF32727C27700E2EB05 /* Build configuration list for PBXNativeTarget "MockCashCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C2DF42727C27700E2EB05 /* Debug */,
+				120C2DF52727C27700E2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120C2DF62727C27700E2EB05 /* Build configuration list for PBXNativeTarget "MockCashCardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C2DF72727C27700E2EB05 /* Debug */,
+				120C2DF82727C27700E2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120C2DF92727C27700E2EB05 /* Build configuration list for PBXNativeTarget "MockCashCardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C2DFA2727C27700E2EB05 /* Debug */,
+				120C2DFB2727C27700E2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120C2DC12727C27600E2EB05 /* Project object */;
+}

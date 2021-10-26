@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TRB-FW-eJV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MockCashCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="homekit" catalog="system" id="X3j-D7-Xjp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="767"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ucx-8k-YZz">
+            <objects>
+                <viewController id="PaJ-lO-gnF" customClass="ViewController" customModule="MockCashCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nqm-PN-TxJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1H1-55-N1N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="personalhotspot" catalog="system" id="deM-sd-hUB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rge-jr-uI7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="2129"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nZ8-M6-D8s">
+            <objects>
+                <viewController id="Adh-EF-eWV" customClass="ViewController" customModule="MockCashCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DH8-NR-2kT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nLS-iq-ruc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="dollarsign.circle" catalog="system" id="thZ-jd-q1Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MGI-eC-mkL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="1451"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="VE7-P5-Q9f">
+            <objects>
+                <viewController id="CPy-3W-LaF" customClass="MainViewController" customModule="MockCashCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1wk-Op-7gO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cash Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbh-Mi-2qz">
+                                <rect key="frame" x="24" y="60" width="147" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Dj5-xe-gA6"/>
+                                    <constraint firstAttribute="width" constant="147" id="P63-d3-yuw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RD8-lT-qTX">
+                                <rect key="frame" x="370" y="68" width="20" height="22"/>
+                                <state key="normal" image="person.crop.circle" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vz-uy-K4p">
+                                <rect key="frame" x="24" y="741" width="366" height="48"/>
+                                <color key="backgroundColor" red="0.10588235294117647" green="0.82745098039215681" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="uBj-oY-ObU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Get Free Cash Card">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="1Y6-zQ-y59">
+                                <rect key="frame" x="136.5" y="701" width="141" height="28"/>
+                                <color key="pageIndicatorTintColor" systemColor="systemGray4Color"/>
+                                <color key="currentPageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kN8-jI-gXZ">
+                                <rect key="frame" x="0.0" y="139" width="414" height="550"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7Mh-EJ-Zrl">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="CPy-3W-LaF" id="w9y-4A-VLc"/>
+                                    <outlet property="delegate" destination="CPy-3W-LaF" id="meR-LJ-JwR"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sG1-y5-PdV"/>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kN8-jI-gXZ" firstAttribute="leading" secondItem="sG1-y5-PdV" secondAttribute="leading" id="BXz-u5-2d8"/>
+                            <constraint firstItem="kN8-jI-gXZ" firstAttribute="top" secondItem="Sbh-Mi-2qz" secondAttribute="bottom" constant="40" id="DyQ-4R-t5p"/>
+                            <constraint firstItem="sG1-y5-PdV" firstAttribute="trailing" secondItem="RD8-lT-qTX" secondAttribute="trailing" constant="24" id="GCU-5o-ktR"/>
+                            <constraint firstItem="RD8-lT-qTX" firstAttribute="top" secondItem="sG1-y5-PdV" secondAttribute="top" constant="24" id="GjC-T7-zgs"/>
+                            <constraint firstItem="3vz-uy-K4p" firstAttribute="leading" secondItem="sG1-y5-PdV" secondAttribute="leading" constant="24" id="MJW-Ok-Jrj"/>
+                            <constraint firstItem="sG1-y5-PdV" firstAttribute="bottom" secondItem="3vz-uy-K4p" secondAttribute="bottom" constant="24" id="auR-Oh-EEG"/>
+                            <constraint firstItem="Sbh-Mi-2qz" firstAttribute="top" secondItem="sG1-y5-PdV" secondAttribute="top" constant="16" id="diU-Ts-H2f"/>
+                            <constraint firstItem="sG1-y5-PdV" firstAttribute="trailing" secondItem="kN8-jI-gXZ" secondAttribute="trailing" id="e9W-RU-l9f"/>
+                            <constraint firstItem="1Y6-zQ-y59" firstAttribute="top" secondItem="kN8-jI-gXZ" secondAttribute="bottom" constant="12" id="f3M-H1-xcX"/>
+                            <constraint firstItem="1Y6-zQ-y59" firstAttribute="centerX" secondItem="1wk-Op-7gO" secondAttribute="centerX" id="fKP-P6-qo5"/>
+                            <constraint firstItem="sG1-y5-PdV" firstAttribute="trailing" secondItem="3vz-uy-K4p" secondAttribute="trailing" constant="24" id="fTl-8W-jpt"/>
+                            <constraint firstItem="3vz-uy-K4p" firstAttribute="top" secondItem="1Y6-zQ-y59" secondAttribute="bottom" constant="12" id="n76-2Z-hFE"/>
+                            <constraint firstItem="Sbh-Mi-2qz" firstAttribute="leading" secondItem="sG1-y5-PdV" secondAttribute="leading" constant="24" id="zOB-xH-WXE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="creditcard" catalog="system" id="EeW-52-yCv"/>
+                    <connections>
+                        <outlet property="collectionView" destination="kN8-jI-gXZ" id="94H-ME-pH2"/>
+                        <outlet property="collectionViewFlowLayout" destination="7Mh-EJ-Zrl" id="LtM-se-11L"/>
+                        <outlet property="pageControl" destination="1Y6-zQ-y59" id="apx-SG-AZM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzw-eq-lT1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cwF-92-rsm">
+            <objects>
+                <viewController id="Gn4-Sl-CAV" customClass="ViewController" customModule="MockCashCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FTq-6F-vYS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BC9-oK-lZb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="timer" catalog="system" id="han-Ni-Y88"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FUl-zf-wlT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="2812"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0bu-x5-o1m">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="TRB-FW-eJV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Bh-hL-kQo">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="GFG-pg-474"/>
+                        <segue destination="CPy-3W-LaF" kind="relationship" relationship="viewControllers" id="aeS-3K-EHZ"/>
+                        <segue destination="Adh-EF-eWV" kind="relationship" relationship="viewControllers" id="U4i-jY-zBW"/>
+                        <segue destination="PaJ-lO-gnF" kind="relationship" relationship="viewControllers" id="PuS-rv-eWo"/>
+                        <segue destination="Gn4-Sl-CAV" kind="relationship" relationship="viewControllers" id="YDk-gP-IcD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMb-fI-G42" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-719" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="creditcard" catalog="system" width="128" height="88"/>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="personalhotspot" catalog="system" width="128" height="75"/>
+        <image name="timer" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
