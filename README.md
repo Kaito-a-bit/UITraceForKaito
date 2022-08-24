@@ -21,5 +21,5 @@
 ## Spotify App
 <img src="https://user-images.githubusercontent.com/73689418/153323455-99135495-29fa-4e86-9702-a47a84d9485f.png" width="320">    <img src="https://user-images.githubusercontent.com/73689418/153323331-efd5a41e-20dd-414e-acd4-68c0fdd3ca37.png" width="320">   
 
-## Spotify App
+## Tinder App
 <img src="https://user-images.githubusercontent.com/73689418/186429255-e135beeb-99ca-4cef-97f2-e79a6c90e595.png" width="320">    <img src="https://user-images.githubusercontent.com/73689418/186428984-9e49b9f5-9812-4dea-bbaf-0cbac3e771c4.png" width="320">   
