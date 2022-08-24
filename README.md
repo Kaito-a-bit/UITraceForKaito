@@ -16,3 +16,10 @@
 ## CashCard App
 
 <img src="https://user-images.githubusercontent.com/73689418/138818154-b1f2eaa2-1f37-4306-a482-ba79bdb8e6e5.png" width="320">   <img src="https://user-images.githubusercontent.com/73689418/138818385-87e0c2cc-acfa-4f9e-b393-6181efb4c46a.gif" width="320">
+
+
+## Spotify App
+<img src="https://user-images.githubusercontent.com/73689418/153323455-99135495-29fa-4e86-9702-a47a84d9485f.png" width="320">    <img src="https://user-images.githubusercontent.com/73689418/153323331-efd5a41e-20dd-414e-acd4-68c0fdd3ca37.png" width="320">   
+
+
+
